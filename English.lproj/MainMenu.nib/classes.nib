@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = RMAppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mainWindow = NSWindow; 
+                userDefaultsController = NSUserDefaultsController; 
+                webView = WebView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = RMDockController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {userDefaultsController = NSUserDefaultsController; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {selectReader = id; }; 
+            CLASS = RMPreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {readerSelector = NSPopUpButton; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
