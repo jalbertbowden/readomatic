@@ -3,7 +3,7 @@
 //  Readomatic
 //
 //  Created by Gernot Poetsch 19.04.07.
-//  Copyright 2007 Gernot Poetsch. All rights reserved.
+//  Copyright 2007 Gernot Poetsch. Released under GLPv3. Have Fun!
 //
 
 #import "RMAppController.h"
