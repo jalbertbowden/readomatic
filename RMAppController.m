@@ -137,10 +137,13 @@
 	DOMHTMLElement *unreadCountElement = (DOMHTMLElement *)[document getElementById:@"reading-list-unread-count"];
 	if (!unreadCountElement) return nil;
 	
+	//Is it hidden?
+	if ([[unreadCountElement className] isEqualToString:@" hidden"]) return nil;
+	
 	//Get the Value
 	NSString *nodeValue = [unreadCountElement innerText];
 	if (!nodeValue) return nil;
-	
+		
 	//Remove the brackets
 	NSScanner *scanner = [[[NSScanner alloc] initWithString:nodeValue] autorelease];
 	NSString *returnValue = nil;
