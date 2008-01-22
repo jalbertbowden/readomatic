@@ -16,6 +16,7 @@
 		821936350BD81D0A0053DD37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821936340BD81D0A0053DD37 /* WebKit.framework */; };
 		821936670BD81F1F0053DD37 /* greader.css in Resources */ = {isa = PBXBuildFile; fileRef = 821936660BD81F1F0053DD37 /* greader.css */; };
 		8287FF6F0BE399FF00B268A8 /* RMDockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8287FF6E0BE399FF00B268A8 /* RMDockController.m */; };
+		82FBAC6C0D468EC50099F4DC /* Readomatic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82FBAC6B0D468EC50099F4DC /* Readomatic.icns */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -43,6 +44,7 @@
 		821936660BD81F1F0053DD37 /* greader.css */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = greader.css; sourceTree = "<group>"; };
 		8287FF6D0BE399FF00B268A8 /* RMDockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDockController.h; sourceTree = "<group>"; };
 		8287FF6E0BE399FF00B268A8 /* RMDockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDockController.m; sourceTree = "<group>"; };
+		82FBAC6B0D468EC50099F4DC /* Readomatic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Readomatic.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Readomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,6 +130,7 @@
 				821318DD0BEA0A8D0024E3AC /* unreadBezel4.tif */,
 				821318DE0BEA0A8D0024E3AC /* unreadBezel3.tif */,
 				821318DF0BEA0A8D0024E3AC /* unreadBezel1&2.tif */,
+				82FBAC6B0D468EC50099F4DC /* Readomatic.icns */,
 				821936660BD81F1F0053DD37 /* greader.css */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -195,6 +198,7 @@
 				821318E10BEA0A8D0024E3AC /* unreadBezel4.tif in Resources */,
 				821318E20BEA0A8D0024E3AC /* unreadBezel3.tif in Resources */,
 				821318E30BEA0A8D0024E3AC /* unreadBezel1&2.tif in Resources */,
+				82FBAC6C0D468EC50099F4DC /* Readomatic.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
